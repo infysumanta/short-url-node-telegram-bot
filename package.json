@@ -1,0 +1,29 @@
+{
+  "name": "short-url-node-telegram-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot For Generate Short Url",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start": "NODE_ENV=production node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/infysumanta/short-url-node-telegram-bot.git"
+  },
+  "keywords": [],
+  "author": "Sumanta Kabiraj <sumantablog@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/infysumanta/short-url-node-telegram-bot/issues"
+  },
+  "homepage": "https://github.com/infysumanta/short-url-node-telegram-bot#readme",
+  "dependencies": {
+    "axios": "^1.1.3",
+    "dotenv": "^16.0.3",
+    "node-telegram-bot-api": "^0.59.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}

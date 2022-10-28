@@ -1,0 +1,9 @@
+{
+    "apps": [
+        {
+            "name": "short-url-node-telegram-bot",
+            "script": "npm",
+            "args": "start"
+        }
+    ]
+}
